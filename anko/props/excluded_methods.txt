@@ -1,0 +1,16 @@
+android.view.View#getPaddingTop
+android.view.View#getPaddingLeft
+android.view.View#getPaddingRight
+android.view.View#getPaddingBottom
+android.view.View#getTouchables
+android.view.View#isImportantForAccessibility
+android.gesture.GestureOverlayView#getCurrentStroke
+android.inputmethodservice.KeyboardView#setShifted
+android.widget.AutoCompleteTextView#setAdapter
+android.widget.ImageView#getDrawable
+android.widget.TextView#isTextSelectable
+android.widget.EditText#getText
+android.view.View#getBackground
+android.webkit.WebView#getVisibleTitleHeight
+android.webkit.WebView#getZoomControls
+android.support.v4.view.ViewPager#setOnPageChangeListener
