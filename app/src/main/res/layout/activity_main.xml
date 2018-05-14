@@ -6,9 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.andteam.andmanager.MainActivity">
+    tools:context="com.andteam.andmanager.activity.MainActivity">
 
-    <include layout="@layout/appbar_main" />
+    <include android:id="@+id/appbar" layout="@layout/appbar_main" />
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/container"
