@@ -8,10 +8,9 @@ import android.support.v7.widget.LinearLayoutManager
 import com.andteam.andmanager.R
 import kotlinx.android.synthetic.main.activity_backup.*
 import kotlinx.android.synthetic.main.appbar_main.*
-import com.andteam.andmanager.util.RecyclerItem
+import com.andteam.andmanager.adapter.RecyclerItem
 import android.support.v7.widget.RecyclerView
-import android.widget.Toast
-import com.andteam.andmanager.util.BaseAdapter
+import com.andteam.andmanager.adapter.BaseAdapter
 import com.andteam.andmanager.util.OnItemClickListener
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.toast
@@ -19,15 +18,12 @@ import org.jetbrains.anko.uiThread
 
 
 class BackupActivity : AppCompatActivity(), OnItemClickListener{
+
     override fun onItemClick(position: Int) {
-        var pkg : String = mItems[position].packageNames
+        val pkg : String = mItems[position].packageNames
         toast(pkg)
 
     }
-
-    //private val names = arrayOf("A","B","C")
-
-    //private val appList  = ArrayList<ApplicationInfo>();
 
     private var adapter: RecyclerView.Adapter<*>? = null
 
@@ -47,7 +43,6 @@ class BackupActivity : AppCompatActivity(), OnItemClickListener{
 
         initRecyclerView()
         getApplicationList()
-        // setData()
     }
     private fun getApplicationList(){
         doAsync {

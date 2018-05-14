@@ -1,4 +1,4 @@
-package com.andteam.andmanager.util
+package com.andteam.andmanager.adapter
 
 import android.graphics.drawable.Drawable
 import android.support.v7.widget.RecyclerView
@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import com.andteam.andmanager.R
+import com.andteam.andmanager.util.OnItemClickListener
 import kotlinx.android.synthetic.main.item_app.view.*
 import org.jetbrains.anko.image
 import java.util.ArrayList
@@ -15,7 +16,7 @@ import java.util.ArrayList
 /**
 * Created by hyunjin on 2018. 5. 11..
 */
-class BaseAdapter(private var mItems: ArrayList<RecyclerItem>, private var listener : OnItemClickListener) : RecyclerView.Adapter<BaseAdapter.ItemViewHolder>() {
+class BaseAdapter(private var mItems: ArrayList<RecyclerItem>, listener : OnItemClickListener) : RecyclerView.Adapter<BaseAdapter.ItemViewHolder>() {
 
     val listeners : OnItemClickListener = listener
 
