@@ -47,7 +47,6 @@ class BaseAdapter(private var mItems: ArrayList<RecyclerItem>, listener : OnItem
         override fun onClick(v: View?) {
             listeners.onItemClick(layoutPosition)
         }
-
         val appName: TextView = itemView.appName
         val appIcon : ImageView = itemView.appIcon
 

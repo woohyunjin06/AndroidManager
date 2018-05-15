@@ -5,9 +5,8 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
-    plugin-version="3.0.1"
-    timestamp="1526293317216"
+    plugin-version="3.1.2"
+    timestamp="1526385281959"
     token="8867280892836678290"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -19,31 +18,43 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="17" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
     <artifact
-        location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
         type="SPLIT" />
 
     <build
         build-mode="FULL"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1526277978727"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1526385131071"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            type="SPLIT" />
         <artifact
             location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
             location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
@@ -52,48 +63,21 @@
             location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/outputs/apk/debug/app-debug.apk"
+            location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1526290294415"
+        timestamp="1526385281959"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1526292950507"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1526293317216"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
     </build>
 

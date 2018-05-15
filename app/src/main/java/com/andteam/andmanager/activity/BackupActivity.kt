@@ -22,7 +22,6 @@ class BackupActivity : AppCompatActivity(), OnItemClickListener{
     override fun onItemClick(position: Int) {
         val pkg : String = mItems[position].packageNames
         toast(pkg)
-
     }
 
     private var adapter: RecyclerView.Adapter<*>? = null
