@@ -19,7 +19,7 @@
         <include android:id="@+id/appbar" layout="@layout/appbar_main" />
 
         <android.support.constraint.ConstraintLayout
-            android:id="@+id/fragment_content"
+            android:id="@+id/fragment_container"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -36,8 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="#ffffff"
         app:headerLayout="@layout/nav_header"
-        app:menu="@menu/menu_main_drawer" />
+        app:menu="@menu/menu_main_drawer"/>
 
 </android.support.v4.widget.DrawerLayout>

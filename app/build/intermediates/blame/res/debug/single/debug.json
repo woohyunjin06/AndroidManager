@@ -140,6 +140,10 @@
         "source": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/res/merged/debug/layout_fragment_backup.xml.flat",
+        "source": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/res/layout/fragment_backup.xml"
+    },
+    {
         "merged": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_checkbox.xml.flat",
         "source": "/Users/hyunjin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/fd5c774ab2197220dc6083aa53b92b41/res/layout/abc_list_menu_item_checkbox.xml"
     },
@@ -644,12 +648,12 @@
         "source": "/Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/226da2b46b97e00c35d4802402116bcb/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "/Users/hyunjin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/fd5c774ab2197220dc6083aa53b92b41/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "/Users/hyunjin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/fd5c774ab2197220dc6083aa53b92b41/res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/Users/hyunjin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/fd5c774ab2197220dc6083aa53b92b41/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -730,6 +734,10 @@
     {
         "merged": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_info.png.flat",
         "source": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/res/drawable-hdpi/ic_info.png"
+    },
+    {
+        "merged": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/res/merged/debug/drawable_select_nav.xml.flat",
+        "source": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/res/drawable/select_nav.xml"
     },
     {
         "merged": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/res/merged/debug/layout_abc_action_mode_bar.xml.flat",
@@ -1040,6 +1048,10 @@
         "source": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/res/drawable-xxxhdpi/ic_setting.png"
     },
     {
+        "merged": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/res/merged/debug/layout_fragment_setting.xml.flat",
+        "source": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/res/layout/fragment_setting.xml"
+    },
+    {
         "merged": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_dashboard.png.flat",
         "source": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/res/drawable-xhdpi/ic_dashboard.png"
     },
@@ -1106,6 +1118,10 @@
     {
         "merged": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/res/merged/debug/color-v23_abc_tint_edittext.xml.flat",
         "source": "/Users/hyunjin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/fd5c774ab2197220dc6083aa53b92b41/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/res/merged/debug/layout_fragment_dashboard.xml.flat",
+        "source": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/res/layout/fragment_dashboard.xml"
     },
     {
         "merged": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
