@@ -1,10 +1,17 @@
 <resources>
     <string name="app_name">Android</string>
     <string name="action_settings">Settings</string>
+
+    <!-- Navigation View -->
     <string name="title_dashboard">Dashboard</string>
     <string name="title_backup">Backup</string>
     <string name="title_application">Application</string>
     <string name="title_share">Share</string>
     <string name="title_setting">Setting</string>
     <string name="title_about_app">About app</string>
+
+    <!-- Navigation Drawer -->
+    <string name="nav_drawer_open">Open</string>
+    <string name="nav_drawer_close">Close</string>
+
 </resources>

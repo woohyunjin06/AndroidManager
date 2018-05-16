@@ -2034,7 +2034,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>
@@ -3968,13 +3968,21 @@ public final class R {
     public static final int appbar_scrolling_view_behavior=0x7f0d001f;
     public static final int bottom_sheet_behavior=0x7f0d0020;
     public static final int character_counter_pattern=0x7f0d0021;
-    public static final int password_toggle_content_description=0x7f0d0022;
-    public static final int path_password_eye=0x7f0d0023;
-    public static final int path_password_eye_mask_strike_through=0x7f0d0024;
-    public static final int path_password_eye_mask_visible=0x7f0d0025;
-    public static final int path_password_strike_through=0x7f0d0026;
-    public static final int search_menu_title=0x7f0d0027;
-    public static final int status_bar_notification_info_overflow=0x7f0d0028;
+    public static final int nav_drawer_close=0x7f0d0022;
+    public static final int nav_drawer_open=0x7f0d0023;
+    public static final int password_toggle_content_description=0x7f0d0024;
+    public static final int path_password_eye=0x7f0d0025;
+    public static final int path_password_eye_mask_strike_through=0x7f0d0026;
+    public static final int path_password_eye_mask_visible=0x7f0d0027;
+    public static final int path_password_strike_through=0x7f0d0028;
+    public static final int search_menu_title=0x7f0d0029;
+    public static final int status_bar_notification_info_overflow=0x7f0d002a;
+    public static final int title_about_app=0x7f0d002b;
+    public static final int title_application=0x7f0d002c;
+    public static final int title_backup=0x7f0d002d;
+    public static final int title_dashboard=0x7f0d002e;
+    public static final int title_setting=0x7f0d002f;
+    public static final int title_share=0x7f0d0030;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0e0000;
@@ -9078,7 +9086,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>
