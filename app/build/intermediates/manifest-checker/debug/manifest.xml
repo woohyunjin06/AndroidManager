@@ -32,6 +32,11 @@
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name="com.gun0912.tedpermission.TedPermissionActivity"
+            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
+            android:screenOrientation="unspecified"
+            android:theme="@style/Theme.Transparent.Permission" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

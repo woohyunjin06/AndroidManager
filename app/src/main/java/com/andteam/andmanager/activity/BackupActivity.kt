@@ -46,6 +46,7 @@ class BackupActivity : AppCompatActivity(), OnItemClickListener{
     private fun getApplicationList(){
         doAsync {
             val mApplicationList : List<ApplicationInfo> = mPackageManager!!.getInstalledApplications(PackageManager.GET_META_DATA)
+            var oneBlock : Int = mApplicationList.size
             for (info in mApplicationList) {
                 try {
                     if (null != packageManager.getLaunchIntentForPackage(info.packageName)) {

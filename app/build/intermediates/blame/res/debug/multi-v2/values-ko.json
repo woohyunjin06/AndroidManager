@@ -4,7 +4,24 @@
             "outputFile": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
             "map": [
                 {
-                    "source": "/Users/hyunjin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/fd5c774ab2197220dc6083aa53b92b41/res/values-ko/values-ko.xml",
+                    "source": "/Users/hyunjin/.gradle/caches/transforms-1/files-1.1/tedpermission-2.2.0.aar/ee8ba6b4e5813c3d40bbbb58eaa9a0f0/res/values-ko/values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,106,159",
+                        "endColumns": "50,52,52",
+                        "endOffsets": "101,154,207"
+                    },
+                    "to": {
+                        "startLines": "21,22,23",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1925,1976,2029",
+                        "endColumns": "50,52,52",
+                        "endOffsets": "1971,2024,2077"
+                    }
+                },
+                {
+                    "source": "/Users/hyunjin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/bfe83178c622606aec6d756a42337c40/res/values-ko/values-ko.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +31,7 @@
                     }
                 },
                 {
-                    "source": "/Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/226da2b46b97e00c35d4802402116bcb/res/values-ko/values-ko.xml",
+                    "source": "/Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/515ff37acb758316a644219960f42a0b/res/values-ko/values-ko.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

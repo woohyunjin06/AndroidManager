@@ -1,6 +1,7 @@
 package com.andteam.andmanager.activity
 
 
+import android.Manifest
 import android.annotation.SuppressLint
 import android.support.v7.app.AppCompatActivity
 
@@ -17,6 +18,9 @@ import org.jetbrains.anko.toast
 import android.support.v7.app.ActionBarDrawerToggle
 import android.view.Gravity
 import com.andteam.andmanager.fragment.*
+import android.widget.Toast
+import com.gun0912.tedpermission.PermissionListener
+import com.gun0912.tedpermission.TedPermission
 
 
 class  MainActivity : AppCompatActivity(){
@@ -34,6 +38,7 @@ class  MainActivity : AppCompatActivity(){
 
         initToolbar()
         initFragment()
+
     }
 
     private fun initToolbar() {
@@ -79,4 +84,6 @@ class  MainActivity : AppCompatActivity(){
             mFragmentTransaction!!.commit()
         }
     }
+
+
 }

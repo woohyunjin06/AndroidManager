@@ -90,14 +90,14 @@ public final class R {
         public static final int notification_background = 0x7f080075;
         public static final int notification_main_column = 0x7f080076;
         public static final int notification_main_column_container = 0x7f080077;
-        public static final int right_icon = 0x7f080083;
-        public static final int right_side = 0x7f080084;
-        public static final int status_bar_latest_event_content = 0x7f0800aa;
-        public static final int tag_transition_group = 0x7f0800ae;
-        public static final int text = 0x7f0800af;
-        public static final int text2 = 0x7f0800b0;
-        public static final int time = 0x7f0800b8;
-        public static final int title = 0x7f0800b9;
+        public static final int right_icon = 0x7f080084;
+        public static final int right_side = 0x7f080085;
+        public static final int status_bar_latest_event_content = 0x7f0800ab;
+        public static final int tag_transition_group = 0x7f0800af;
+        public static final int text = 0x7f0800b0;
+        public static final int text2 = 0x7f0800b1;
+        public static final int time = 0x7f0800b9;
+        public static final int title = 0x7f0800ba;
     }
     public static final class integer {
         public static final int cancel_button_image_alpha = 0x7f090004;
@@ -134,8 +134,8 @@ public final class R {
         public static final int TextAppearance_Compat_Notification_Time_Media = 0x7f0e00f7;
         public static final int TextAppearance_Compat_Notification_Title = 0x7f0e00f8;
         public static final int TextAppearance_Compat_Notification_Title_Media = 0x7f0e00f9;
-        public static final int Widget_Compat_NotificationActionContainer = 0x7f0e016e;
-        public static final int Widget_Compat_NotificationActionText = 0x7f0e016f;
+        public static final int Widget_Compat_NotificationActionContainer = 0x7f0e016f;
+        public static final int Widget_Compat_NotificationActionText = 0x7f0e0170;
     }
     public static final class styleable {
         public static final int[] FontFamily = { 0x7f03009a, 0x7f03009b, 0x7f03009c, 0x7f03009d, 0x7f03009e, 0x7f03009f };
