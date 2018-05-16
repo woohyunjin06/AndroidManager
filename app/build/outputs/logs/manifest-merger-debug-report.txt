@@ -1,46 +1,50 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-24:12
 MERGED from [com.android.support:design:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/9d4bd28fcf28b5d8c4955e334aaebd46/AndroidManifest.xml:17:1-22:12
 MERGED from [gun0912.ted:tedpermission:2.2.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/tedpermission-2.2.0.aar/ee8ba6b4e5813c3d40bbbb58eaa9a0f0/AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/bfe83178c622606aec6d756a42337c40/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/d494c1461c216b3f601ef4b09f01480f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/e8289f9acc9c1f74940a86fc1143aee4/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:transition:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/970e405d64042fe8e2eaeee412933e37/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/375d91351e7bbc34ba20f137dbe8099f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/5fcd37c1c27457b52437ffe88ecfc347/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/e28ec0bca9762954b318140c346033a0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/572b60788ed6ef666434160a3b11983e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/3c0e9e0e65e5cfd09f0103f967e4929f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e3f10d00c0ec3e50041764ff78d5dd89/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/970e405d64042fe8e2eaeee412933e37/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/3c0e9e0e65e5cfd09f0103f967e4929f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/fa03c37c9edb1ebb58f578b0b81fa7a6/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/515ff37acb758316a644219960f42a0b/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c32a1357a83e92b32c197a9abacd5ef2/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/3cce0e62bef81aca72852b542a0327a3/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/00557d60f004bab271da572cf89465ea/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c32a1357a83e92b32c197a9abacd5ef2/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/966bfefb9bc18c7c34a14efab85f076c/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-24:12
 		INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-24:12
 		INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:5:5-27:19
+ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:5:5-22:19
 MERGED from [gun0912.ted:tedpermission:2.2.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/tedpermission-2.2.0.aar/ee8ba6b4e5813c3d40bbbb58eaa9a0f0/AndroidManifest.xml:9:5-15:19
 MERGED from [gun0912.ted:tedpermission:2.2.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/tedpermission-2.2.0.aar/ee8ba6b4e5813c3d40bbbb58eaa9a0f0/AndroidManifest.xml:9:5-15:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/e8289f9acc9c1f74940a86fc1143aee4/AndroidManifest.xml:9:5-20
@@ -75,14 +79,6 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
 		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:19:27-74
-activity#com.andteam.andmanager.activity.BackupActivity
-ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:22:9-26:20
-	android:label
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:23:13-45
-	android:theme
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:24:13-56
-	android:name
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:22:19-58
 uses-sdk
 INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml
@@ -97,8 +93,6 @@ MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/hyunjin/.gradle/
 MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/d494c1461c216b3f601ef4b09f01480f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/e8289f9acc9c1f74940a86fc1143aee4/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/e8289f9acc9c1f74940a86fc1143aee4/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:transition:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/970e405d64042fe8e2eaeee412933e37/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/970e405d64042fe8e2eaeee412933e37/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/375d91351e7bbc34ba20f137dbe8099f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/375d91351e7bbc34ba20f137dbe8099f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/5fcd37c1c27457b52437ffe88ecfc347/AndroidManifest.xml:20:5-44
@@ -107,20 +101,22 @@ MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/hyunjin
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/e28ec0bca9762954b318140c346033a0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/572b60788ed6ef666434160a3b11983e/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/572b60788ed6ef666434160a3b11983e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/3c0e9e0e65e5cfd09f0103f967e4929f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/3c0e9e0e65e5cfd09f0103f967e4929f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e3f10d00c0ec3e50041764ff78d5dd89/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e3f10d00c0ec3e50041764ff78d5dd89/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/970e405d64042fe8e2eaeee412933e37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/970e405d64042fe8e2eaeee412933e37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/3c0e9e0e65e5cfd09f0103f967e4929f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/3c0e9e0e65e5cfd09f0103f967e4929f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/fa03c37c9edb1ebb58f578b0b81fa7a6/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/fa03c37c9edb1ebb58f578b0b81fa7a6/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/515ff37acb758316a644219960f42a0b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/515ff37acb758316a644219960f42a0b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c32a1357a83e92b32c197a9abacd5ef2/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c32a1357a83e92b32c197a9abacd5ef2/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/3cce0e62bef81aca72852b542a0327a3/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/3cce0e62bef81aca72852b542a0327a3/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/00557d60f004bab271da572cf89465ea/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/00557d60f004bab271da572cf89465ea/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c32a1357a83e92b32c197a9abacd5ef2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c32a1357a83e92b32c197a9abacd5ef2/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/966bfefb9bc18c7c34a14efab85f076c/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/966bfefb9bc18c7c34a14efab85f076c/AndroidManifest.xml:20:5-44
 INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml

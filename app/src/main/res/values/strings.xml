@@ -14,4 +14,11 @@
     <string name="nav_drawer_open">Open</string>
     <string name="nav_drawer_close">Close</string>
 
+    <!-- Login Activity -->
+    <string name="login_noaccount">Don\'t have an account?</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_sign_in">Sign in</string>
+    <string name="login_sign_up">Sign up</string>
+
 </resources>

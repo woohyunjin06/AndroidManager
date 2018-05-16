@@ -15,8 +15,6 @@ class SettingFragment : Fragment(){
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val li : View = inflater.inflate(R.layout.fragment_setting, container, false)
 
-
-
         return li
     }
 }
