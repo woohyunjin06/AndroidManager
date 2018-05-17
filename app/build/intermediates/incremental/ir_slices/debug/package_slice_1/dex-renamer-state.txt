@@ -1,4 +1,4 @@
-#Wed May 16 21:18:34 KST 2018
-base.0=/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/transforms/dexMerger/debug/1
+#Thu May 17 16:47:29 KST 2018
+base.0=/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/transforms/dexMerger/debug/2
 path.0=classes.dex
 renamed.0=classes.dex

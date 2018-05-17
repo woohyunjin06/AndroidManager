@@ -16,6 +16,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="112dp"
         android:text="@string/app_name"
+        android:textColor="@color/color_white"
         android:textSize="45sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,7 +32,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title">
 
-        <EditText
+        <android.support.v7.widget.AppCompatEditText
             android:id="@+id/id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -43,9 +44,11 @@
             android:hint="@string/login_username"
             android:inputType="text"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            style="@style/AppTheme.EditText"
+            app:theme="@style/AppTheme.EditText"/>
 
-        <EditText
+        <android.support.v7.widget.AppCompatEditText
             android:id="@+id/pw"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -59,7 +62,9 @@
             android:inputType="textPassword"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/id" />
+            app:layout_constraintTop_toBottomOf="@+id/id"
+            style="@style/AppTheme.EditText"
+            app:theme="@style/AppTheme.EditText"/>
 
     </android.support.constraint.ConstraintLayout>
 
@@ -73,6 +78,7 @@
         android:layout_marginTop="8dp"
         android:background="@color/colorPrimary"
         android:text="@string/login_sign_in"
+        android:textColor="@color/color_white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -86,6 +92,7 @@
         android:layout_marginStart="84dp"
         android:layout_marginTop="8dp"
         android:text="@string/login_noaccount"
+        android:textColor="@color/color_white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sign" />
@@ -99,6 +106,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="@string/login_sign_up"
+        android:textColor="@color/color_white"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -18,9 +18,9 @@ import org.jetbrains.anko.toast
 import android.support.v7.app.ActionBarDrawerToggle
 import android.view.Gravity
 import com.andteam.andmanager.fragment.*
-import android.widget.Toast
-import com.gun0912.tedpermission.PermissionListener
-import com.gun0912.tedpermission.TedPermission
+import kotlinx.android.synthetic.main.nav_header.*
+import kotlinx.android.synthetic.main.nav_header.view.*
+import org.jetbrains.anko.startActivity
 
 
 class  MainActivity : AppCompatActivity(){
@@ -38,7 +38,9 @@ class  MainActivity : AppCompatActivity(){
 
         initToolbar()
         initFragment()
-
+        nav_view.getHeaderView(0).textView.setOnClickListener {
+            startActivity<LoginActivity>()
+        }
     }
 
     private fun initToolbar() {
