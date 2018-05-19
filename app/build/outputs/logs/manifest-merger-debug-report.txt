@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-30:12
+ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-36:12
 MERGED from [com.android.support:design:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/9d4bd28fcf28b5d8c4955e334aaebd46/AndroidManifest.xml:17:1-22:12
 MERGED from [gun0912.ted:tedpermission:2.2.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/tedpermission-2.2.0.aar/ee8ba6b4e5813c3d40bbbb58eaa9a0f0/AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/bfe83178c622606aec6d756a42337c40/AndroidManifest.xml:17:1-22:12
@@ -23,20 +23,20 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/hyunjin/.gradle/
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/00557d60f004bab271da572cf89465ea/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c32a1357a83e92b32c197a9abacd5ef2/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/966bfefb9bc18c7c34a14efab85f076c/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-36:12
 	package
 		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-30:12
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-36:12
 		INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-30:12
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-36:12
 		INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:11-69
@@ -45,53 +45,61 @@ ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/Andro
 	android:name
 		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:5:22-76
 uses-permission#android.permission.INTERNET
-ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:6:5-66
+ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:7:22-64
 application
-ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:7:5-28:19
+ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:9:5-34:19
 MERGED from [gun0912.ted:tedpermission:2.2.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/tedpermission-2.2.0.aar/ee8ba6b4e5813c3d40bbbb58eaa9a0f0/AndroidManifest.xml:9:5-15:19
 MERGED from [gun0912.ted:tedpermission:2.2.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/tedpermission-2.2.0.aar/ee8ba6b4e5813c3d40bbbb58eaa9a0f0/AndroidManifest.xml:9:5-15:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/e8289f9acc9c1f74940a86fc1143aee4/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/e8289f9acc9c1f74940a86fc1143aee4/AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:13:9-40
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:15:9-40
 activity#com.andteam.andmanager.activity.MainActivity
-ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:14:9-23:20
+ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:16:9-25:20
 	android:label
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:16:13-45
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:18:13-45
 	android:theme
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:17:13-56
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:19:13-56
 	android:name
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:15:13-50
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:17:13-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:18:13-22:29
+ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:23:27-74
 activity#com.andteam.andmanager.activity.LoginActivity
-ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:24:9-27:58
+ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:26:9-29:59
 	android:label
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:26:13-45
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:28:13-45
 	android:theme
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:27:13-56
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:29:13-56
 	android:name
-		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:25:13-51
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:27:13-51
+activity#com.andteam.andmanager.activity.RegisterActivity
+ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:30:9-33:58
+	android:label
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:32:13-45
+	android:theme
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:33:13-56
+	android:name
+		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:31:13-54
 uses-sdk
 INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml

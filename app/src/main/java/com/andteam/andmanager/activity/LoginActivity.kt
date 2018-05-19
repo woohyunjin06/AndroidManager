@@ -14,7 +14,7 @@ import java.io.InputStreamReader
 import java.net.HttpURLConnection
 import java.net.URL
 import android.net.ConnectivityManager
-
+import org.jetbrains.anko.startActivity
 
 
 class LoginActivity : AppCompatActivity(), View.OnClickListener{
@@ -23,69 +23,73 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener{
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
-        Toasty.Config.getInstance().apply() // Toasty Basically init
+        Toasty.Config.getInstance().apply() // Toasty init
 
         sign.setOnClickListener(this)
+        sign_up.setOnClickListener(this)
     }
     override fun onClick(v: View?) {
-        var result: String
-        val mId = id.text.toString()
-        val mPw = pw.text.toString()
-        when(checkNetwork()) {
-            true -> {
-                when {
-                    mId == "" -> Toasty.warning(this,"Please input your username").show()
-                    mPw == "" -> Toasty.warning(this, "Please input your password").show()
-                    else -> doAsync {
-                        try {
-                            val body = "id=$mId&pw=$mPw"
-                            val u = URL("http://10.0.2.2:8888/login.php")
-                            val huc = u.openConnection() as HttpURLConnection
+        when(v!!.id){
+            R.id.sign -> {
+                var result: String
+                val mId = id.text.toString()
+                val mPw = pw.text.toString()
+                when(checkNetwork()) {
+                    true -> {
+                        when {
+                            mId == "" -> Toasty.warning(this, "Please input your username").show()
+                            mPw == "" -> Toasty.warning(this, "Please input your password").show()
+                            else -> doAsync {
+                                try {
+                                    val body = "id=$mId&pw=$mPw"
+                                    val u = URL("http://10.0.2.2:8888/login.php")
+                                    val huc = u.openConnection() as HttpURLConnection
 
-                            huc.readTimeout = 4000; huc.connectTimeout = 4000
-                            huc.requestMethod = "POST"
-                            huc.doInput = true; huc.doOutput = true
-                            huc.setRequestProperty("euc-kr", "application/x-www-form-urlencoded")
+                                    huc.readTimeout = 4000; huc.connectTimeout = 4000
+                                    huc.requestMethod = "POST"
+                                    huc.doInput = true; huc.doOutput = true
+                                    huc.setRequestProperty("euc-kr", "application/x-www-form-urlencoded")
 
-                            val os = huc.outputStream
-                            os.write(body.toByteArray(charset("euc-kr")))
-                            os.flush()
-                            os.close()
+                                    val os = huc.outputStream
+                                    os.write(body.toByteArray(charset("euc-kr")))
+                                    os.flush()
+                                    os.close()
 
-                            val br = BufferedReader(InputStreamReader(huc.inputStream, "utf-8"), huc.contentLength)
-                            val ch  = br.readLine()
-                            val sb = StringBuffer()
-                            sb.append(ch)
-                            br.close()
+                                    val br = BufferedReader(InputStreamReader(huc.inputStream, "utf-8"), huc.contentLength)
+                                    val ch = br.readLine()
+                                    val sb = StringBuffer()
+                                    sb.append(ch)
+                                    br.close()
 
-                            result = sb.toString()
-                            uiThread {
-                                when {
-                                    result.contains("SUCCESS") -> {
-                                        val nick = result.replaceFirst("SUCCESS","")
-                                        Toasty.success(it, "$nick SUCCESS").show()
+                                    result = sb.toString()
+                                    uiThread {
+                                        when {
+                                            result.contains("SUCCESS") -> {
+                                                val nick = result.replaceFirst("SUCCESS", "")
+                                                Toasty.success(it, "$nick SUCCESS").show()
+                                            }
+                                            result == "FAILED" -> {
+                                                Toasty.error(it, "Please check your Username or Password.").show()
+                                            }
+                                            else -> {
+                                                Toasty.error(it, "Please contact administrator of server.").show()
+                                            }
+                                        }
                                     }
-                                    result == "FAILED" -> {
-                                        Toasty.error(it, "Please check your Username or Password.").show()
-                                    }
-                                    else -> {
-                                        Toasty.error(it, "Please contact administrator of server.").show()
-                                    }
+
+                                } catch (e: Exception) {
+                                    e.printStackTrace()
                                 }
                             }
-
-                        } catch (e: Exception) {
-                            e.printStackTrace()
                         }
+                    }
+                    false -> {
+                        Toasty.warning(this, "Please check your network.").show()
                     }
                 }
             }
-            false -> {
-                Toasty.warning(this, "Please check your network.").show()
-            }
+            R.id.sign_up -> startActivity<RegisterActivity>()
         }
-
-
     }
 
     private fun checkNetwork() : Boolean {

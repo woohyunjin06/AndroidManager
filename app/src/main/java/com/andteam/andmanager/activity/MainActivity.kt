@@ -18,7 +18,6 @@ import org.jetbrains.anko.toast
 import android.support.v7.app.ActionBarDrawerToggle
 import android.view.Gravity
 import com.andteam.andmanager.fragment.*
-import kotlinx.android.synthetic.main.nav_header.*
 import kotlinx.android.synthetic.main.nav_header.view.*
 import org.jetbrains.anko.startActivity
 
