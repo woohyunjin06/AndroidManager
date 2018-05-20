@@ -51,7 +51,7 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener {
                             huc.setRequestProperty("euc-kr", "application/x-www-form-urlencoded")
 
                             val os = huc.outputStream
-                            os.write(body.toByteArray(charset("euc-kr")))
+                            os.write(body.toByteArray(charset("utf-8")))
                             os.flush()
                             os.close()
 
