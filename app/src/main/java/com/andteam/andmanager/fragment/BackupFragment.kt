@@ -32,7 +32,7 @@ import org.jetbrains.anko.support.v4.act
 class BackupFragment : Fragment(), OnItemClickListener{
 
     override fun onItemClick(position: Int) {
-        val pkg : String = mItems[position].packageNames
+        //val pkg : String = mItems[position].packageNames
 
         TedPermission.with(activity)
                 .setPermissionListener(mPermissionListener)

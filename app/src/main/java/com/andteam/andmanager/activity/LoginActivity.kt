@@ -16,13 +16,14 @@ import java.net.URL
 import android.net.ConnectivityManager
 import org.jetbrains.anko.startActivity
 
-
 class LoginActivity : AppCompatActivity(), View.OnClickListener{
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+        init()
+    }
+    private fun init(){
         Toasty.Config.getInstance().apply() // Toasty init
 
         sign.setOnClickListener(this)
@@ -41,41 +42,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener{
                             mPw == "" -> Toasty.warning(this, "Please input your password").show()
                             else -> doAsync {
                                 try {
-                                    val body = "id=$mId&pw=$mPw"
-                                    val u = URL("http://10.0.2.2:8888/login.php")
-                                    val huc = u.openConnection() as HttpURLConnection
-
-                                    huc.readTimeout = 4000; huc.connectTimeout = 4000
-                                    huc.requestMethod = "POST"
-                                    huc.doInput = true; huc.doOutput = true
-                                    huc.setRequestProperty("euc-kr", "application/x-www-form-urlencoded")
-
-                                    val os = huc.outputStream
-                                    os.write(body.toByteArray(charset("utf-8")))
-                                    os.flush()
-                                    os.close()
-
-                                    val br = BufferedReader(InputStreamReader(huc.inputStream, "utf-8"), huc.contentLength)
-                                    val ch = br.readLine()
-                                    val sb = StringBuffer()
-                                    sb.append(ch)
-                                    br.close()
-
-                                    result = sb.toString()
-                                    uiThread {
-                                        when {
-                                            result.contains("SUCCESS") -> {
-                                                val nick = result.replaceFirst("SUCCESS", "")
-                                                Toasty.success(it, "$nick SUCCESS").show()
-                                            }
-                                            result == "FAILED" -> {
-                                                Toasty.error(it, "Please check your Username or Password.").show()
-                                            }
-                                            else -> {
-                                                Toasty.error(it, "Please contact administrator of server.").show()
-                                            }
-                                        }
-                                    }
+                                    // do Something
 
                                 } catch (e: Exception) {
                                     e.printStackTrace()

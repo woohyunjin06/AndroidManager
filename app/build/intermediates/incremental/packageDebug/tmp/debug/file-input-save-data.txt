@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed May 16 23:40:36 KST 2018
+#Mon May 21 15:25:27 KST 2018
 2.base=/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/transforms/dexMerger/debug/16
 5.set=DEX
 0.path=classes.dex
