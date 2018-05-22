@@ -11,7 +11,6 @@ import es.dmoral.toasty.Toasty
 import kotlinx.android.synthetic.main.activity_register.*
 import com.google.firebase.auth.FirebaseAuth
 import java.util.regex.Pattern
-import android.widget.Toast
 import org.jetbrains.anko.startActivity
 
 

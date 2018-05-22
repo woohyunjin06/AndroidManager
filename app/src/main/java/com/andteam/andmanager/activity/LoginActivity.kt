@@ -7,16 +7,23 @@ import android.view.View
 import com.andteam.andmanager.R
 import es.dmoral.toasty.Toasty
 import kotlinx.android.synthetic.main.activity_login.*
-import org.jetbrains.anko.doAsync
-import org.jetbrains.anko.uiThread
-import java.io.BufferedReader
-import java.io.InputStreamReader
-import java.net.HttpURLConnection
-import java.net.URL
 import android.net.ConnectivityManager
+import com.google.firebase.auth.FirebaseAuth
 import org.jetbrains.anko.startActivity
+import com.google.firebase.internal.FirebaseAppHelper.getUid
+import com.google.firebase.auth.FirebaseUser
+import android.support.annotation.NonNull
+
+
+
+
 
 class LoginActivity : AppCompatActivity(), View.OnClickListener{
+
+
+    private var mAuth: FirebaseAuth? = null
+    var mContext: Context? = null
+    private var mAuthListener: FirebaseAuth.AuthStateListener? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,26 +35,31 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener{
 
         sign.setOnClickListener(this)
         sign_up.setOnClickListener(this)
+
+        mContext = this
+        mAuth = FirebaseAuth.getInstance()
+        mAuthListener = FirebaseAuth.AuthStateListener { firebaseAuth ->
+            val user = firebaseAuth.currentUser
+            if (user != null) {
+                Toasty.info(this, "Signed in " + user.email).show()
+                startActivity<MainActivity>("email" to user.email)
+                finish()
+            } else {
+                Toasty.info(this, "Signed out").show()
+            }
+        }
     }
     override fun onClick(v: View?) {
         when(v!!.id){
             R.id.sign -> {
-                var result: String
-                val mId = id.text.toString()
+                val mEmail = email.text.toString()
                 val mPw = pw.text.toString()
                 when(checkNetwork()) {
                     true -> {
                         when {
-                            mId == "" -> Toasty.warning(this, "Please input your username").show()
+                            mEmail == "" -> Toasty.warning(this, "Please input your email").show()
                             mPw == "" -> Toasty.warning(this, "Please input your password").show()
-                            else -> doAsync {
-                                try {
-                                    // do Something
-
-                                } catch (e: Exception) {
-                                    e.printStackTrace()
-                                }
-                            }
+                            else -> loginAccount(mEmail, mPw)
                         }
                     }
                     false -> {
@@ -58,6 +70,21 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener{
             R.id.sign_up -> startActivity<RegisterActivity>()
         }
     }
+
+    private fun loginAccount(email: String, password: String){
+        mAuth!!.signInWithEmailAndPassword(email, password)
+                .addOnCompleteListener(this) { task ->
+                    if (task.isSuccessful){
+                        Toasty.success(this, "Sign in successfully").show()
+
+                    }
+                    else {
+                        Toasty.error(this, "Sign in failed").show()
+                    }
+
+                }
+    }
+
 
     private fun checkNetwork() : Boolean {
         val cm = this.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
@@ -70,5 +97,17 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener{
             }
         }
         return false
+    }
+
+    public override fun onStart() {
+        super.onStart()
+        mAuth!!.addAuthStateListener(mAuthListener!!)
+    }
+
+    public override fun onStop() {
+        super.onStop()
+        if (mAuthListener != null) {
+            mAuth!!.removeAuthStateListener(mAuthListener!!)
+        }
     }
 }
