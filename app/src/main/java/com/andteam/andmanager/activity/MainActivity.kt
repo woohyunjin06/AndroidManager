@@ -1,8 +1,7 @@
 package com.andteam.andmanager.activity
 
-
-import android.Manifest
 import android.annotation.SuppressLint
+import android.content.Context
 import android.support.v7.app.AppCompatActivity
 
 import android.os.Bundle
@@ -17,7 +16,12 @@ import kotlinx.android.synthetic.main.appbar_main.*
 import org.jetbrains.anko.toast
 import android.support.v7.app.ActionBarDrawerToggle
 import android.view.Gravity
+import com.andteam.andmanager.R.layout.activity_main
+import com.andteam.andmanager.R.layout.nav_header
 import com.andteam.andmanager.fragment.*
+import com.google.firebase.auth.FirebaseAuth
+import es.dmoral.toasty.Toasty
+import kotlinx.android.synthetic.main.nav_header.*
 import kotlinx.android.synthetic.main.nav_header.view.*
 import org.jetbrains.anko.startActivity
 
@@ -28,8 +32,12 @@ class  MainActivity : AppCompatActivity(){
     private val backupFragment = BackupFragment()
     private val settingFragment = SettingFragment()
 
-    private var mFragmentManager : FragmentManager ?= null
-    private var mFragmentTransaction : FragmentTransaction ?= null
+    private var mFragmentManager : FragmentManager? = null
+    private var mFragmentTransaction : FragmentTransaction? = null
+
+    private var mAuth: FirebaseAuth? = null
+    private var mContext: Context? = null
+    private var mAuthListener: FirebaseAuth.AuthStateListener? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,9 +45,7 @@ class  MainActivity : AppCompatActivity(){
 
         initToolbar()
         initFragment()
-        nav_view.getHeaderView(0).textView.setOnClickListener {
-            startActivity<LoginActivity>()
-        }
+        initProfile()
     }
 
     private fun initToolbar() {
@@ -66,6 +72,9 @@ class  MainActivity : AppCompatActivity(){
                 drawer_layout.openDrawer(Gravity.START)
             }
         }
+        nav_view.getHeaderView(0).textView.setOnClickListener {
+            startActivity<LoginActivity>()
+        }
     }
 
     @SuppressLint("CommitTransaction")
@@ -75,6 +84,21 @@ class  MainActivity : AppCompatActivity(){
         mFragmentTransaction!!.add(R.id.fragment_container, dashboardFragment)
         mFragmentTransaction!!.commit()
         nav_view.setCheckedItem(R.id.nav_dashboard)
+    }
+    private fun initProfile() {
+        mContext = this
+        mAuth = FirebaseAuth.getInstance()
+        mAuthListener = FirebaseAuth.AuthStateListener { firebaseAuth ->
+            val user = firebaseAuth.currentUser
+            if (user != null) {
+                Toasty.info(this, "Signed in " + user.email).show()
+                nav_view.getHeaderView(0).email.text = user.email
+            } else {
+                Toasty.info(this, "Signed out").show()
+                startActivity<LoginActivity>()
+                finish()
+            }
+        }
     }
 
     @SuppressLint("CommitTransaction")
@@ -86,5 +110,15 @@ class  MainActivity : AppCompatActivity(){
         }
     }
 
+    public override fun onStart() {
+        super.onStart()
+        mAuth!!.addAuthStateListener(mAuthListener!!)
+    }
 
+    public override fun onStop() {
+        super.onStop()
+        if (mAuthListener != null) {
+            mAuth!!.removeAuthStateListener(mAuthListener!!)
+        }
+    }
 }
