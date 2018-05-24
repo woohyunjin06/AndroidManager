@@ -23,8 +23,7 @@ import kotlinx.android.synthetic.main.appbar_main.*
 import kotlinx.android.synthetic.main.nav_header.view.*
 import org.jetbrains.anko.startActivity
 import android.content.Intent
-
-
+import org.jetbrains.anko.alert
 
 
 class  MainActivity : AppCompatActivity(){
@@ -61,7 +60,7 @@ class  MainActivity : AppCompatActivity(){
                 R.id.nav_backup -> replaceFragment(backupFragment)
                 R.id.nav_settings -> replaceFragment(settingFragment)
                 R.id.nav_share -> doInvite()
-                R.id.nav_about -> toast("About This App")
+                R.id.nav_about -> alert("어플 정보","--")
             }
             drawer_layout.closeDrawer(GravityCompat.START)
             true
