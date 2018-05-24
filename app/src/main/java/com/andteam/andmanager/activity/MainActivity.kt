@@ -10,20 +10,21 @@ import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentTransaction
 import android.support.v4.view.GravityCompat
 import com.andteam.andmanager.R
-import kotlinx.android.synthetic.main.activity_main.*
 
-import kotlinx.android.synthetic.main.appbar_main.*
 import org.jetbrains.anko.toast
 import android.support.v7.app.ActionBarDrawerToggle
 import android.view.Gravity
-import com.andteam.andmanager.R.layout.activity_main
-import com.andteam.andmanager.R.layout.nav_header
 import com.andteam.andmanager.fragment.*
+import com.crashlytics.android.Crashlytics
 import com.google.firebase.auth.FirebaseAuth
 import es.dmoral.toasty.Toasty
-import kotlinx.android.synthetic.main.nav_header.*
+import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.appbar_main.*
 import kotlinx.android.synthetic.main.nav_header.view.*
 import org.jetbrains.anko.startActivity
+import android.content.Intent
+
+
 
 
 class  MainActivity : AppCompatActivity(){
@@ -59,7 +60,7 @@ class  MainActivity : AppCompatActivity(){
                 R.id.nav_dashboard -> replaceFragment(dashboardFragment)
                 R.id.nav_backup -> replaceFragment(backupFragment)
                 R.id.nav_settings -> replaceFragment(settingFragment)
-                R.id.nav_share -> toast("Share")
+                R.id.nav_share -> doInvite()
                 R.id.nav_about -> toast("About This App")
             }
             drawer_layout.closeDrawer(GravityCompat.START)
@@ -73,7 +74,7 @@ class  MainActivity : AppCompatActivity(){
             }
         }
         nav_view.getHeaderView(0).textView.setOnClickListener {
-            startActivity<LoginActivity>()
+            Crashlytics.getInstance().crash()
         }
     }
 
@@ -99,6 +100,15 @@ class  MainActivity : AppCompatActivity(){
                 finish()
             }
         }
+    }
+
+    private fun doInvite() {
+        val intent = Intent(android.content.Intent.ACTION_SEND)
+        intent.type = "text/plain"
+        intent.putExtra(Intent.EXTRA_SUBJECT, "타이틀3")
+        intent.putExtra(Intent.EXTRA_TEXT, "타이틀2")
+        val chooser = Intent.createChooser(intent, "타이틀")
+        startActivity(chooser)
     }
 
     @SuppressLint("CommitTransaction")

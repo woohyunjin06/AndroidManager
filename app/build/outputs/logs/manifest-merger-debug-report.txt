@@ -4,7 +4,6 @@ ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/Andro
 INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-36:12
 INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-36:12
 INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:2:1-36:12
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.1.aar/42a8522a470f498e2b52122435db34e9/AndroidManifest.xml:2:1-19:12
 MERGED from [com.android.support:design:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/9aff53d8c823b334cfe970b8f5cc93ef/AndroidManifest.xml:17:1-22:12
 MERGED from [gun0912.ted:tedpermission:2.2.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/tedpermission-2.2.0.aar/6c07ed002ee027218a944feb80853e58/AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/76eea48130908045a97d7ef5f3326b40/AndroidManifest.xml:17:1-22:12
@@ -13,6 +12,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/hyun
 MERGED from [com.github.GrenderG:Toasty:1.3.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/Toasty-1.3.0.aar/c563bc0c1b6b392278b29374d258967c/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-core:15.0.2] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.2.aar/95dcb1e3b80838dc23cc737bdec85759/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth:15.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/a3efd2864917cd0ef9f6794ddc470ac7/AndroidManifest.xml:17:1-38:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.1.aar/42a8522a470f498e2b52122435db34e9/AndroidManifest.xml:2:1-19:12
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/67b5dc8c4cf2a59b6f0a371c854622c7/AndroidManifest.xml:17:1-34:12
 MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/0608458a81bb70127715defe6a8b56dd/AndroidManifest.xml:17:1-55:12
 MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/8af14bfdf5726ab212311e7bbe871f4b/AndroidManifest.xml:17:1-22:12
@@ -28,10 +28,6 @@ MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] /Users/h
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/f3b98208cc536b12e9a86379811cb5c0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/464272e16b017ff31a838e9edf33cc0c/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/03b2f3564be00fe0ff52baa6c89c274c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/5874c5c32a8f5c54c17caddc58535818/AndroidManifest.xml:2:1-13:12
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.1.aar/3a5304e47740f363d632e5942bdeddba/AndroidManifest.xml:45:1-56:12
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/44315f4a72b1c537d26be55a59612743/AndroidManifest.xml:2:1-13:12
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/4ea30e48a9816e69807f9f95a98e0022/AndroidManifest.xml:22:1-33:12
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6e0611817c80a00d91181152ef3ed1a2/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/30c7e7d621ca5e63b6bff9ce164ab8f1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/dafc58744c220182aa14f5023d76dcab/AndroidManifest.xml:17:1-22:12
@@ -40,6 +36,10 @@ MERGED from [com.android.support:transition:27.1.1] /Users/hyunjin/.gradle/cache
 MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/826f8e927655f4135b89dcefb1e783c9/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/ca09731eb454949cfe74a407a95210b8/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e8b0bd630fad2b3114b6e9df849ca86a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/5874c5c32a8f5c54c17caddc58535818/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.1.aar/3a5304e47740f363d632e5942bdeddba/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/44315f4a72b1c537d26be55a59612743/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/4ea30e48a9816e69807f9f95a98e0022/AndroidManifest.xml:22:1-33:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/d3e08a48405433f29cf2840072de963f/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/908cd84853895bb1aad2c5bae6069d51/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/68f8e1d372c4613d5f19e4173b5fe432/AndroidManifest.xml:17:1-22:12
@@ -98,8 +98,6 @@ MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/hyunjin/.gradle/caches/t
 		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:7:22-64
 application
 ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml:9:5-34:19
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.1.aar/42a8522a470f498e2b52122435db34e9/AndroidManifest.xml:11:5-17:19
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.1.aar/42a8522a470f498e2b52122435db34e9/AndroidManifest.xml:11:5-17:19
 MERGED from [gun0912.ted:tedpermission:2.2.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/tedpermission-2.2.0.aar/6c07ed002ee027218a944feb80853e58/AndroidManifest.xml:9:5-15:19
 MERGED from [gun0912.ted:tedpermission:2.2.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/tedpermission-2.2.0.aar/6c07ed002ee027218a944feb80853e58/AndroidManifest.xml:9:5-15:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/45a4982e90d5c551b11dad89a8cd85e1/AndroidManifest.xml:9:5-20
@@ -108,6 +106,8 @@ MERGED from [com.google.firebase:firebase-core:15.0.2] /Users/hyunjin/.gradle/ca
 MERGED from [com.google.firebase:firebase-core:15.0.2] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.2.aar/95dcb1e3b80838dc23cc737bdec85759/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-auth:15.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/a3efd2864917cd0ef9f6794ddc470ac7/AndroidManifest.xml:22:5-36:19
 MERGED from [com.google.firebase:firebase-auth:15.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/a3efd2864917cd0ef9f6794ddc470ac7/AndroidManifest.xml:22:5-36:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.1.aar/42a8522a470f498e2b52122435db34e9/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.1.aar/42a8522a470f498e2b52122435db34e9/AndroidManifest.xml:11:5-17:19
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/67b5dc8c4cf2a59b6f0a371c854622c7/AndroidManifest.xml:26:5-32:19
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/67b5dc8c4cf2a59b6f0a371c854622c7/AndroidManifest.xml:26:5-32:19
 MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/0608458a81bb70127715defe6a8b56dd/AndroidManifest.xml:28:5-53:19
@@ -194,8 +194,6 @@ uses-sdk
 INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml
 INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.1.aar/42a8522a470f498e2b52122435db34e9/AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.1.aar/42a8522a470f498e2b52122435db34e9/AndroidManifest.xml:7:5-43
 MERGED from [com.android.support:design:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/9aff53d8c823b334cfe970b8f5cc93ef/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/9aff53d8c823b334cfe970b8f5cc93ef/AndroidManifest.xml:20:5-44
 MERGED from [gun0912.ted:tedpermission:2.2.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/tedpermission-2.2.0.aar/6c07ed002ee027218a944feb80853e58/AndroidManifest.xml:5:5-7:41
@@ -212,6 +210,8 @@ MERGED from [com.google.firebase:firebase-core:15.0.2] /Users/hyunjin/.gradle/ca
 MERGED from [com.google.firebase:firebase-core:15.0.2] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.2.aar/95dcb1e3b80838dc23cc737bdec85759/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:15.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/a3efd2864917cd0ef9f6794ddc470ac7/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth:15.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/a3efd2864917cd0ef9f6794ddc470ac7/AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.1.aar/42a8522a470f498e2b52122435db34e9/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.1.aar/42a8522a470f498e2b52122435db34e9/AndroidManifest.xml:7:5-43
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/67b5dc8c4cf2a59b6f0a371c854622c7/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/67b5dc8c4cf2a59b6f0a371c854622c7/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/0608458a81bb70127715defe6a8b56dd/AndroidManifest.xml:20:5-44
@@ -242,14 +242,6 @@ MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/hyunji
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/464272e16b017ff31a838e9edf33cc0c/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/03b2f3564be00fe0ff52baa6c89c274c/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/03b2f3564be00fe0ff52baa6c89c274c/AndroidManifest.xml:20:5-44
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/5874c5c32a8f5c54c17caddc58535818/AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/5874c5c32a8f5c54c17caddc58535818/AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.1.aar/3a5304e47740f363d632e5942bdeddba/AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.1.aar/3a5304e47740f363d632e5942bdeddba/AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/44315f4a72b1c537d26be55a59612743/AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/44315f4a72b1c537d26be55a59612743/AndroidManifest.xml:7:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/4ea30e48a9816e69807f9f95a98e0022/AndroidManifest.xml:27:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/4ea30e48a9816e69807f9f95a98e0022/AndroidManifest.xml:27:5-43
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6e0611817c80a00d91181152ef3ed1a2/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6e0611817c80a00d91181152ef3ed1a2/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/30c7e7d621ca5e63b6bff9ce164ab8f1/AndroidManifest.xml:20:5-44
@@ -266,6 +258,14 @@ MERGED from [com.android.support:support-media-compat:27.1.1] /Users/hyunjin/.gr
 MERGED from [com.android.support:support-media-compat:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/ca09731eb454949cfe74a407a95210b8/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e8b0bd630fad2b3114b6e9df849ca86a/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e8b0bd630fad2b3114b6e9df849ca86a/AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/5874c5c32a8f5c54c17caddc58535818/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/5874c5c32a8f5c54c17caddc58535818/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.1.aar/3a5304e47740f363d632e5942bdeddba/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.1.aar/3a5304e47740f363d632e5942bdeddba/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/44315f4a72b1c537d26be55a59612743/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/44315f4a72b1c537d26be55a59612743/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/4ea30e48a9816e69807f9f95a98e0022/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/4ea30e48a9816e69807f9f95a98e0022/AndroidManifest.xml:27:5-43
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/d3e08a48405433f29cf2840072de963f/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/d3e08a48405433f29cf2840072de963f/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/908cd84853895bb1aad2c5bae6069d51/AndroidManifest.xml:20:5-44
@@ -286,16 +286,6 @@ INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/An
 		INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml
 		ADDED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/hyunjin/Project/2018/Android/AndroidManager/app/src/main/AndroidManifest.xml
-provider#com.crashlytics.android.CrashlyticsInitProvider
-ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.1.aar/42a8522a470f498e2b52122435db34e9/AndroidManifest.xml:12:9-16:39
-	android:authorities
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.1.aar/42a8522a470f498e2b52122435db34e9/AndroidManifest.xml:14:13-75
-	android:exported
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.1.aar/42a8522a470f498e2b52122435db34e9/AndroidManifest.xml:15:13-37
-	android:initOrder
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.1.aar/42a8522a470f498e2b52122435db34e9/AndroidManifest.xml:16:13-36
-	android:name
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.1.aar/42a8522a470f498e2b52122435db34e9/AndroidManifest.xml:13:13-75
 activity#com.gun0912.tedpermission.TedPermissionActivity
 ADDED from [gun0912.ted:tedpermission:2.2.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/tedpermission-2.2.0.aar/6c07ed002ee027218a944feb80853e58/AndroidManifest.xml:10:9-14:67
 	android:screenOrientation
@@ -334,6 +324,16 @@ ADDED from [com.google.firebase:firebase-auth:15.1.0] /Users/hyunjin/.gradle/cac
 		ADDED from [com.google.firebase:firebase-auth:15.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/a3efd2864917cd0ef9f6794ddc470ac7/AndroidManifest.xml:34:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:15.1.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/a3efd2864917cd0ef9f6794ddc470ac7/AndroidManifest.xml:33:17-109
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.1.aar/42a8522a470f498e2b52122435db34e9/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.1.aar/42a8522a470f498e2b52122435db34e9/AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.1.aar/42a8522a470f498e2b52122435db34e9/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.1.aar/42a8522a470f498e2b52122435db34e9/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.1.aar/42a8522a470f498e2b52122435db34e9/AndroidManifest.xml:13:13-75
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/67b5dc8c4cf2a59b6f0a371c854622c7/AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/0608458a81bb70127715defe6a8b56dd/AndroidManifest.xml:25:5-68
