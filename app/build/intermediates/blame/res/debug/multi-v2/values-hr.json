@@ -4,41 +4,7 @@
             "outputFile": "/Users/hyunjin/Project/2018/Android/AndroidManager/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml",
             "map": [
                 {
-                    "source": "/Users/hyunjin/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/107234ac6f161438bc54785d3f672867/res/values-hr/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "190",
-                        "endOffsets": "437"
-                    },
-                    "to": {
-                        "startLines": "27",
-                        "startColumns": "4",
-                        "startOffsets": "3063",
-                        "endColumns": "190",
-                        "endOffsets": "3249"
-                    }
-                },
-                {
-                    "source": "/Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/49625995f884c6f8ddbdacf99fac6443/res/values-hr/values-hr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "38",
-                        "startColumns": "4",
-                        "startOffsets": "4658",
-                        "endColumns": "100",
-                        "endOffsets": "4754"
-                    }
-                },
-                {
-                    "source": "/Users/hyunjin/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/821d21c433c8f079544e1cc70aa243c2/res/values-hr/values.xml",
+                    "source": "/Users/hyunjin/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/c0e17a6edbadef705ed0f672f7961833/res/values-hr/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -55,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/hyunjin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/97d29d603f14f06ce37492043c4a70a5/res/values-hr/values-hr.xml",
+                    "source": "/Users/hyunjin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/76eea48130908045a97d7ef5f3326b40/res/values-hr/values-hr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -69,6 +35,40 @@
                         "startOffsets": "105,210,307,417,503,607,726,810,893,979,1083,1196,1302,1407,1520,1627,1796,4569",
                         "endColumns": "104,96,109,85,103,118,83,82,85,103,112,105,104,112,106,168,96,88",
                         "endOffsets": "205,302,412,498,602,721,805,888,974,1078,1191,1297,1402,1515,1622,1791,1888,4653"
+                    }
+                },
+                {
+                    "source": "/Users/hyunjin/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/464272e16b017ff31a838e9edf33cc0c/res/values-hr/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "190",
+                        "endOffsets": "437"
+                    },
+                    "to": {
+                        "startLines": "27",
+                        "startColumns": "4",
+                        "startOffsets": "3063",
+                        "endColumns": "190",
+                        "endOffsets": "3249"
+                    }
+                },
+                {
+                    "source": "/Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e8b0bd630fad2b3114b6e9df849ca86a/res/values-hr/values-hr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "38",
+                        "startColumns": "4",
+                        "startOffsets": "4658",
+                        "endColumns": "100",
+                        "endOffsets": "4754"
                     }
                 }
             ]

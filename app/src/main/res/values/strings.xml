@@ -22,5 +22,7 @@
     <string name="login_sign_up">Sign up</string>
     <string name="login_confirm_password">Confirm password</string>
     <string name="login_email">Email</string>
+    <string name="header_user">User</string>
+    <string name="header_email">admin@andteam.co.kr</string>
 
 </resources>

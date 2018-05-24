@@ -10,19 +10,12 @@ import kotlinx.android.synthetic.main.activity_login.*
 import android.net.ConnectivityManager
 import com.google.firebase.auth.FirebaseAuth
 import org.jetbrains.anko.startActivity
-import com.google.firebase.internal.FirebaseAppHelper.getUid
-import com.google.firebase.auth.FirebaseUser
-import android.support.annotation.NonNull
-
-
-
-
 
 class LoginActivity : AppCompatActivity(), View.OnClickListener{
 
 
     private var mAuth: FirebaseAuth? = null
-    var mContext: Context? = null
+    private var mContext: Context? = null
     private var mAuthListener: FirebaseAuth.AuthStateListener? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
