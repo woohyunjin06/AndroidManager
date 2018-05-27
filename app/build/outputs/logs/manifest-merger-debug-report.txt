@@ -28,6 +28,7 @@ MERGED from [com.google.firebase:firebase-measurement-connector:15.0.0] /Users/h
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/f3b98208cc536b12e9a86379811cb5c0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/464272e16b017ff31a838e9edf33cc0c/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/03b2f3564be00fe0ff52baa6c89c274c/AndroidManifest.xml:17:1-22:12
+MERGED from [:RootTools] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/RootTools.aar/fe0486a842bf09d978dc04c474ccf286/AndroidManifest.xml:2:1-10:12
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6e0611817c80a00d91181152ef3ed1a2/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/30c7e7d621ca5e63b6bff9ce164ab8f1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/dafc58744c220182aa14f5023d76dcab/AndroidManifest.xml:17:1-22:12
@@ -242,6 +243,8 @@ MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/hyunji
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/464272e16b017ff31a838e9edf33cc0c/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/03b2f3564be00fe0ff52baa6c89c274c/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/03b2f3564be00fe0ff52baa6c89c274c/AndroidManifest.xml:20:5-44
+MERGED from [:RootTools] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/RootTools.aar/fe0486a842bf09d978dc04c474ccf286/AndroidManifest.xml:6:5-8:41
+MERGED from [:RootTools] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/RootTools.aar/fe0486a842bf09d978dc04c474ccf286/AndroidManifest.xml:6:5-8:41
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6e0611817c80a00d91181152ef3ed1a2/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6e0611817c80a00d91181152ef3ed1a2/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/hyunjin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/30c7e7d621ca5e63b6bff9ce164ab8f1/AndroidManifest.xml:20:5-44
