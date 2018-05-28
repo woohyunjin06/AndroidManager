@@ -11,7 +11,6 @@ import android.support.v4.app.FragmentTransaction
 import android.support.v4.view.GravityCompat
 import com.andteam.andmanager.R
 
-import org.jetbrains.anko.toast
 import android.support.v7.app.ActionBarDrawerToggle
 import android.view.Gravity
 import com.andteam.andmanager.fragment.*
@@ -21,9 +20,9 @@ import es.dmoral.toasty.Toasty
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.appbar_main.*
 import kotlinx.android.synthetic.main.nav_header.view.*
-import org.jetbrains.anko.startActivity
 import android.content.Intent
-import org.jetbrains.anko.alert
+import com.stericson.RootTools.RootTools
+import org.jetbrains.anko.*
 
 
 class  MainActivity : AppCompatActivity(){
@@ -46,6 +45,7 @@ class  MainActivity : AppCompatActivity(){
         initToolbar()
         initFragment()
         initProfile()
+        initRoot()
     }
 
     private fun initToolbar() {
@@ -73,7 +73,7 @@ class  MainActivity : AppCompatActivity(){
             }
         }
         nav_view.getHeaderView(0).textView.setOnClickListener {
-            Crashlytics.getInstance().crash()
+            //Crashlytics.getInstance().crash()
         }
     }
 
@@ -98,6 +98,20 @@ class  MainActivity : AppCompatActivity(){
                 startActivity<LoginActivity>()
                 finish()
             }
+        }
+    }
+    private fun initRoot() {
+        if(RootTools.isRootAvailable()) {
+            if (!RootTools.isAccessGiven()) {
+                alert("If you use this app without root access, you can't use app","Root access denied."){
+                    yesButton { finish() }
+                }.show()
+            }
+        }
+        else {
+            alert("If you use this app without root access, almost all function could not be used.","SU binary not found"){
+                yesButton { finish() }
+            }.show()
         }
     }
 
