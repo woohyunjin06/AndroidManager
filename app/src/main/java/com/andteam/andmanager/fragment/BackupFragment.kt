@@ -4,7 +4,6 @@ import android.Manifest
 import android.content.pm.ApplicationInfo
 import android.content.pm.PackageManager
 import android.os.Bundle
-import android.support.annotation.ColorInt
 import android.support.v4.app.Fragment
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
@@ -20,6 +19,7 @@ import org.jetbrains.anko.uiThread
 import com.andteam.andmanager.util.OnItemClickListener
 import com.gun0912.tedpermission.PermissionListener
 import com.gun0912.tedpermission.TedPermission
+import com.stericson.RootTools.RootTools
 import es.dmoral.toasty.Toasty
 import kotlinx.android.synthetic.main.fragment_backup.*
 import kotlinx.android.synthetic.main.fragment_backup.view.*
@@ -32,15 +32,13 @@ import org.jetbrains.anko.support.v4.act
 class BackupFragment : Fragment(), OnItemClickListener{
 
     override fun onItemClick(position: Int) {
-        //val pkg : String = mItems[position].packageNames
-
-        TedPermission.with(activity)
-                .setPermissionListener(mPermissionListener)
-                .setDeniedMessage("If you reject permission,you can not use this service\n\nPlease turn on permissions at [Setting] > [Permission]")
-                .setPermissions(Manifest.permission.READ_CONTACTS, Manifest.permission.ACCESS_FINE_LOCATION)
-                .check()
-
-
+        val pkg : String = mItems[position].packageNames
+        if(RootTools.isAccessGiven()){
+            //TODO: Do Backup
+        }
+        else {
+            Toasty.error(activity!!,"Root Access doesn't granted.").show()
+        }
     }
 
     private var adapter: RecyclerView.Adapter<*>? = null
@@ -61,10 +59,17 @@ class BackupFragment : Fragment(), OnItemClickListener{
 
         initRecyclerView()
         getApplicationList()
-
-
+        init()
 
         return li
+    }
+    private fun init(){
+        Toasty.Config.getInstance().apply()
+        TedPermission.with(activity)
+                .setPermissionListener(mPermissionListener)
+                .setDeniedMessage("If you reject permission,you can not use backup\n\nPlease turn on permissions at [Setting] > [Permission]")
+                .setPermissions(Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                .check()
     }
     private fun getApplicationList(){
         doAsync {
@@ -100,7 +105,5 @@ class BackupFragment : Fragment(), OnItemClickListener{
         override fun onPermissionDenied(deniedPermissions: ArrayList<String>) {
             Toast.makeText(activity, "Permission Denied\n" + deniedPermissions.toString(), Toast.LENGTH_SHORT).show()
         }
-
-
     }
 }
