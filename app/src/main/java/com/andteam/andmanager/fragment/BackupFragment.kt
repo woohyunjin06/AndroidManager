@@ -19,11 +19,11 @@ import org.jetbrains.anko.uiThread
 import com.andteam.andmanager.util.OnItemClickListener
 import com.gun0912.tedpermission.PermissionListener
 import com.gun0912.tedpermission.TedPermission
+import com.stericson.RootShell.RootShell
+import com.stericson.RootShell.execution.Command
 import com.stericson.RootTools.RootTools
 import es.dmoral.toasty.Toasty
-import kotlinx.android.synthetic.main.fragment_backup.*
 import kotlinx.android.synthetic.main.fragment_backup.view.*
-import org.jetbrains.anko.support.v4.act
 
 /**
 * Created by hyunjin on 2018. 5. 16..
@@ -35,6 +35,27 @@ class BackupFragment : Fragment(), OnItemClickListener{
         val pkg : String = mItems[position].packageNames
         if(RootTools.isAccessGiven()){
             //TODO: Do Backup
+            val command = object : Command(0, "cp /data/data/$pkg /sdcard/AndroidManager/Backup/$pkg") {
+                override fun commandOutput(id: Int, line: String?) {
+                    super.commandOutput(id, line)
+                    if(line != null) {
+
+                    }
+
+                }
+
+                override fun commandTerminated(id: Int, reason: String?) {
+
+                }
+
+                override fun commandCompleted(id: Int, exitcode: Int) {
+                    super.commandCompleted(id, exitcode)
+                    Toasty.success(activity!!, "Backup complete").show()
+                }
+
+            }
+
+            RootShell.getShell(true).add(command)
         }
         else {
             Toasty.error(activity!!,"Root Access doesn't granted.").show()
@@ -52,7 +73,7 @@ class BackupFragment : Fragment(), OnItemClickListener{
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val li : View = inflater.inflate(R.layout.fragment_backup, container, false)
 
-        mRecyclerView = li.mRecyclerView
+        mRecyclerView = li.recyclerView
         val mLayoutManager = LinearLayoutManager(activity)
         mRecyclerView!!.layoutManager = mLayoutManager
         mPackageManager = activity!!.packageManager
@@ -99,7 +120,7 @@ class BackupFragment : Fragment(), OnItemClickListener{
 
     private var mPermissionListener: PermissionListener = object : PermissionListener {
         override fun onPermissionGranted() {
-            Toast.makeText(act, "Permission Granted", Toast.LENGTH_SHORT).show()
+            Toast.makeText(activity, "Permission Granted", Toast.LENGTH_SHORT).show()
         }
 
         override fun onPermissionDenied(deniedPermissions: ArrayList<String>) {
