@@ -39,7 +39,9 @@ class BackupFragment : Fragment(), OnItemClickListener{
                 override fun commandOutput(id: Int, line: String?) {
                     super.commandOutput(id, line)
                     if(line != null) {
+                        if(line.contains("something success"))  {
 
+                        }
                     }
 
                 }
